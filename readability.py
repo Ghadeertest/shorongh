@@ -60,3 +60,4 @@ def CEFR(FKG):
         level = 'A1'
     else: level = 'ваш уровень слишком низок'
     return level    
+#ghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh

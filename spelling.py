@@ -113,3 +113,4 @@ def make_changes(text, corrections, ignore_options=['не исправлять']
         if correction['chosen_value'] not in ignore_options:
             text = text[:correction['pos']] + correction['chosen_value'] + text[correction['end']:]
     return  text
+#ghhhhhhhhhhhhhhhhhhhhhhhh
