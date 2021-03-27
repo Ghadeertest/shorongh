@@ -12,4 +12,3 @@ def main():
     print('none')
 if __name__ == "__main__":
     main()
-#ghhhhhhhhhhhhhhhhhhhhhh

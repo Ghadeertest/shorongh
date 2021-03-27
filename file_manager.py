@@ -49,4 +49,3 @@ def is_encoding_supported(file_id):
 def are_paragraphs_correct(file_id, paragraph_len_limit=10000):
     text = get_last_version(file_id)
     return all([len(paragraph)<=paragraph_len_limit for paragraph in text.split('\n')])
-#ghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh

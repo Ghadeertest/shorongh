@@ -1,4 +1,4 @@
-import mysql.connector
+# import mysql.connector
 import pandas as pd
 import os
 import re
@@ -18,12 +18,12 @@ latins = re.compile(r"([a-zA-Z]+\W+)|(\W+[a-zA-Z]+)|(\W+[a-zA-Z]\W+)|([a-zA-Z]+)
 cyrillic = re.compile(r"([а-яА-ЯёЁ]+\W+)|(\W+[а-яА-ЯёЁ]+)|(\W+[а-яА-ЯёЁ]\W+)")
 initial = re.compile(r"[а-яА-ЯёЁ]\.")
 
-con = mysql.connector.connect(user='root',
-                              password='',
-                              host='127.0.0.1',
-                              database='cat',
-                              auth_plugin='mysql_native_password'
-                             )
+# con = mysql.connector.connect(user='root',
+#                               password='',
+#                               host='127.0.0.1',
+#                               database='cat',
+#                               auth_plugin='mysql_native_password'
+#                              )
 
 class Tagset:
     def __init__(self, unigram, lemm, morph, pos, start_id, end_id):
@@ -183,4 +183,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-#ghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh

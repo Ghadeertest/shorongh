@@ -9,4 +9,3 @@ ASPECT2FUNCTION  = {
     'morphology': morphology_checker,
     'duplicates': duplicates_checker
 }
-#ghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
